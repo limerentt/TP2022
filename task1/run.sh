@@ -3,10 +3,10 @@
 for i in 1 2 3 4
 do
 case "$1" in
---INPUT_FOLDER) INPUT_FOLDER="$2";;
---EXTENSION) EXTENSION="$2";;
---BACKUP_FOLDER) BACKUP_FOLDER="$2";;
---BACKUP_ARCHIVE_NAME) BACKUP_ARCHIVE_NAME="$2";;
+"--input_folder") INPUT_FOLDER="$2";;
+"--extension") EXTENSION="$2";;
+"--backup_folder") BACKUP_FOLDER="$2";;
+"--backup_archive_name") BACKUP_ARCHIVE_NAME="$2";;
 esac
 shift
 shift
