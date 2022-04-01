@@ -1,14 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
-
-option(ARM_BUILD)
-if (ARM_BUILD)
-add_definitions(-DARM_BUILD)
-endif (ARM_BUILD)
-
-option(TOOLCHAIN)
-if (TOOLCHAIN)
-add_definitions(-DTOOLCHAIN)
-endif (TOOLCHAIN)
+cmake_minimum_required(VERSION 3.0)
 
 set(CMAKE_C_COMPILER ${TOOLCHAIN}/aarch64-linux-gnu-gcc)
 
@@ -33,5 +23,10 @@ install(DIRECTORY ${CMAKE_SOURCE_DIR}/include
 	DESTINATION ${CMAKE_INSTALL_PREFIX})
 
 target_link_libraries(MainLib buffer)
+
+install(TARGETS MainLib Main
+    LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/lib 
+    RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
+)
 
 install(TARGETS MainLib Main ${CMAKE_INSTALL_PREFIX}/bin)
