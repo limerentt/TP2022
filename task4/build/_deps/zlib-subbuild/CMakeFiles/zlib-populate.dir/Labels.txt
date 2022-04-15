@@ -1,0 +1,14 @@
+# Target labels
+ zlib-populate
+# Source files and their labels
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test.rule
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update.rule

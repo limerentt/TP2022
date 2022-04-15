@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/CMakeFiles/cpr_repo-populate"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/CMakeFiles/cpr_repo-populate.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/CMakeFiles/cpr_repo-populate-complete.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-build.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-configure.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-download.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-install.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-patch.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-test.rule"
+		},
+		{
+			"file" : "/home/lex/for_tp/TP2022/task4/build/_deps/cpr_repo-subbuild/cpr_repo-populate-prefix/src/cpr_repo-populate-stamp/cpr_repo-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpr_repo-populate"
+		],
+		"name" : "cpr_repo-populate"
+	}
+}

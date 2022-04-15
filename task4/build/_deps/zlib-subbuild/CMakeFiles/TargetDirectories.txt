@@ -1,0 +1,3 @@
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate.dir
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/CMakeFiles/edit_cache.dir
+/home/lex/for_tp/TP2022/task4/build/_deps/zlib-subbuild/CMakeFiles/rebuild_cache.dir
