@@ -5,8 +5,8 @@ LABEL version="1.0"
 
 RUN apt-get update && \
     apt-get -y g++ make cmake && \
-    apt-get -y python3 python3-pip && \
-    pip install -y flask
+    apt-get -y python3 python3-pip
+RUN pip install -y flask
 COPY . opt/techprog
 WORKDIR /opt/techprog
 USER tp2022user
