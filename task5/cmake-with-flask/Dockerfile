@@ -10,7 +10,7 @@ RUN apt-get install -y cmake
 RUN apt-get install -y python3 
 RUN apt-get install -y python3-pip
 RUN pip install flask
-COPY * opt/techprog
+COPY . opt/techprog
 WORKDIR /opt/techprog
 RUN mkdir build && cd build && cmake .. && make
 RUN useradd -s /bin/bash tp2022user
