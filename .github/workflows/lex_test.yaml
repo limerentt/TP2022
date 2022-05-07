@@ -15,11 +15,10 @@ jobs:
                 mkdir ./task6/task-ci/3rdparty
                 git clone https://github.com/google/googletest.git ./task6/task-ci/3rdparty
                 cd ./task6/task-ci
-                mkdir build
                 cmake -B build
                 cd ..
                 cd ..
-                cmake --build /task6/task-ci/build
+                cmake --build ./task6/task-ci/build
 
             - uses: akhtyamovpavel/ActionGtestReport@v0.0.9
               with:
