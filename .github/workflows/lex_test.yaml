@@ -18,11 +18,13 @@ jobs:
                 cd task-ci
                 cmake -B build
                 cmake --build build
+                cd ..
+                cd ..
 
             - uses: akhtyamovpavel/ActionGtestReport@v0.0.9
               with:
-                exec-path: CTestExe
-                report-path: report.xml
+                exec-path: ./task6/task-ci/bin/CTestExe
+                report-path: ./task6/report.xml
                 working-directory: ./task6
 
 
