@@ -19,11 +19,6 @@ jobs:
                 cd ..
                 cd ..
                 cmake --build ./task6/task-ci/build
-                mkdir ./task6/task-ci/bin
-                mkdir ./task6/task-ci/bin
-                cd ./task6
-                touch report.xml
-                cd ..
 
             - uses: akhtyamovpavel/ActionGtestReport@v0.0.9
               with:
@@ -44,5 +39,5 @@ jobs:
               with:
                 name: Distributive
                 path: |
-                    "./task6/task-ci/bin"
-                    "./task6/task-ci/lib"
+                    ./task6/task-ci/bin
+                    ./task6/task-ci/lib
