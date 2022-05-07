@@ -22,9 +22,9 @@ jobs:
 
             - uses: akhtyamovpavel/ActionGtestReport@v0.0.9
               with:
-                exec-path: ./task6/task-ci/bin/CTestExe
-                report-path: ./task6/report.xml
-                working-directory: ./task6
+                exec-path: "./task6/task-ci/bin/CTestExe"
+                report-path: "./task6/report.xml"
+                working-directory: "./task6/task-ci"
 
 
             - name: Test
