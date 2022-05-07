@@ -14,9 +14,8 @@ jobs:
               run: |
                 mkdir ./task6/task-ci/3rdparty
                 git clone https://github.com/google/googletest.git ./task6/task-ci/3rdparty
-                cd ./task-ci
+                cd ./task6/task-ci
                 cmake -B build
-                cd ..
                 cd ..
                 cd ..
                 cmake --build /task6/task-ci/build
