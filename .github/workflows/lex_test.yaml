@@ -42,5 +42,5 @@ jobs:
               with:
                 name: Distributive
                 path: |
-                    ./task6/task-ci/bin
-                    ./task6/task-ci/lib
+                    "./task6/task-ci/bin"
+                    "./task6/task-ci/lib"
