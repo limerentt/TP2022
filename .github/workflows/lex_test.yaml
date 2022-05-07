@@ -19,6 +19,9 @@ jobs:
                 cd ..
                 cd ..
                 cmake --build ./task6/task-ci/build
+                cd ./task6
+                touch report.xml
+                cd ..
 
             - uses: akhtyamovpavel/ActionGtestReport@v0.0.9
               with:
@@ -31,7 +34,7 @@ jobs:
               uses: actions/upload-artifact@v3
               with:
                 name: test-report
-                path: "./task6/task-ci/report.xml"
+                path: "./task6/report.xml"
 
 
             - name: UploadArtifacts
